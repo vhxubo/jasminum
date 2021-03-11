@@ -27,6 +27,9 @@
             label="&jasminum.update.label;"
             class="menuitem-iconic jasminum-searchCNKI-icon" 
             oncommand="Zotero.Jasminum.updateSelectedItems();"/>
+        <menuitem id="zotero-itemmenu-jasminum-removeurl" 
+            label="&jasminum.removeUrl.label;"
+            oncommand="Zotero.Jasminum.removeUrlM();"/>
 		<menuitem id="zotero-itemmenu-jasminum-bookmark"
             label="&jasminum.addBookmark.label;"
             class="menuitem-iconic jasminum-bookmark-icon" 

@@ -1,5 +1,6 @@
 <!ENTITY jasminum.update.label "Retrieving CNKI Metadata…">
 <!ENTITY jasminum.addBookmark.label "Add Bookmark to PDF …">
+<!ENTITY jasminum.removeUrl.label "Remove URL">
 <!ENTITY jasminum.namehandler.label "Split/Merge CN Name">
 <!ENTITY jasminum.namehandler.split.label "Split Names">
 <!ENTITY jasminum.namehandler.merge.label "Merge Names">

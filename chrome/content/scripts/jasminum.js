@@ -1111,6 +1111,18 @@ Zotero.Jasminum = {
             }
         }
     },
+
+    removeUrlM: function () {
+        var items = ZoteroPane.getSelectedItems();
+        Zotero.Jasminum.removeUrl(items);
+    },
+
+    removeUrl: async function (items) {
+        for (let item of items) {
+            item.setField("url", "");
+            item.saveTx();
+        }
+    }
 };
 
 window.addEventListener(
